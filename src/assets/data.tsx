@@ -18,3 +18,5 @@ export const data = {
         Newari:'Understandable'
     }
 };
+
+export default data;

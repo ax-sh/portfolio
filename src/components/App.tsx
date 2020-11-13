@@ -5,7 +5,7 @@ import Contact from "./Contact";
 
 export const App = () => (
 	<div className="app">
-		<About />
+		{/* <About /> */}
 		<Contact />
 	</div>
 );
