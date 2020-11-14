@@ -67,7 +67,6 @@ export const Contact = () => (
 		<h1>Contact</h1>
 		<div className="wrapper">
 			{/* <Img src={process.env.PUBLIC_URL + '/QRcode.svg'}/> */}
-			{/* <Img src={process.env.PUBLIC_URL + '/QRcode.svg'}/> */}
 			{/* <Img src='profile-img.webp'/> */}
 			<QRCode 
 			includeMargin={'true'} 
