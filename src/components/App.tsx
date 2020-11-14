@@ -4,8 +4,8 @@ import About from "./About";
 import Contact from "./Contact";
 
 export const App = () => (
-	<div className="app">
-		{/* <About /> */}
+	<div id="app">
+		<About />
 		<Contact />
 	</div>
 );

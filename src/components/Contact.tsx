@@ -2,27 +2,33 @@ import * as React from "react";
 import styled from "styled-components";
 import Section from "./common";
 import data from "../assets/data";
+// import profileImg from "../profile-img.webp";
+// import profileImg from "../assets/profile-img.webp";
+
 
 const StyledContact = styled(Section)``;
 const Ul = styled.ul`
 	list-style-type: none;
 	font-size: 20pt;
-	text-align: center;
+	text-align: left;
+	* { border-box: box-sizing; }
+	& li{
+		// display:inline-block;
+		// vertical-align: top;
+		line-height:40pt;
+
+		position:relative;
+	}
 `;
 
 const StyledExternalLinks = styled.div`
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-decoration: none;
-	height: 100vh;
 	& a {
-		color: #ababab;
-		text-transform: lowercase;
+		position:relative;
+		// text-transform: lowercase;
+		text-transform: uppercase;
 		text-decoration: none;
 	}
 	& a:hover {
-		text-transform: uppercase;
 		text-decoration: underline;
 	}
 `;
@@ -39,10 +45,24 @@ const ExternalLinks = ({ links }: { links: Array<string> }) => (
 	</StyledExternalLinks>
 );
 
+
+const Img = styled.img`
+height:40vh;
+width:40vh;
+// clip-path: polygon(50% 100%, 0 0, 100% 0);
+background-color:white
+`
+
 export const Contact = () => (
 	<StyledContact id="contact">
 		<h1>Contact</h1>
-		<ExternalLinks links={data.links} />
+		<div className="wrapper">
+			{/* <Img src={process.env.PUBLIC_URL + '/QRcode.svg'}/> */}
+			{/* <Img src={process.env.PUBLIC_URL + '/QRcode.svg'}/> */}
+			{/* <Img src='profile-img.webp'/> */}
+			<ExternalLinks links={data.links} />
+
+		</div>
 	</StyledContact>
 );
 

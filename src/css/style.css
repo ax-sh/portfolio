@@ -1,14 +1,26 @@
+@import "normalize"; /* bring in normalize.css styles */
+
+/* rest of app styles */
 :root{
     --font:sans-serif;
+    --primary-color:#222831;
+    --secondary-color:#30475e;
+    --highlight-color:#f05454;
+    --grey-color:#e8e8e8
 }
 
 html,body{
-    background-color:#000;
-    color:#fff;
+    background-color:var(--primary-color);
+    color:var(--highlight-color);
     font-family: var(--font);
 }
+a{
+    color: var(--highlight-color);
+}
 
-html, body, section{
-    margin:0;
-    padding: 0;
+#contact .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color:#ababab; */
 }
