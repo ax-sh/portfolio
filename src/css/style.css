@@ -11,43 +11,8 @@
     --black-color:#111;
 }
 
-h1{
-    /* font-family: Cardo; */
-}
-
-html,body{
+body{
+    color:var(--secondary-color);
     background-color:var(--primary-color);
-    color:var(--highlight-color);
-    font-family: var(--font);
-}
-a{
-    color: var(--highlight-color);
-}
-
-#contact .wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color:#ababab; */
-}
-
-.about-wrapper{
-    display: flex;
-    /* align-items: center; */
-    /* align-items: center; */
-    justify-content: center;
-}
-
-.section h1{
-    text-transform: uppercase;
-    color:#000
-}
-.about-me{
-}
-.about-me h1, .about-me h2{
-    color:#23b776 !important;
-    text-align: right !important;
-    margin:0;
-    color:var(--highlight-color) !important
-
+    font-family:var(--font)
 }
