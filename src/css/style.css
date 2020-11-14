@@ -6,7 +6,8 @@
     --primary-color:#222831;
     --secondary-color:#30475e;
     --highlight-color:#f05454;
-    --grey-color:#e8e8e8
+    --grey-color:#e8e8e8;
+    --black-color:#111;
 }
 
 html,body{
@@ -23,4 +24,11 @@ a{
     align-items: center;
     justify-content: center;
     /* background-color:#ababab; */
+}
+
+.about-wrapper{
+    display: flex;
+    /* align-items: center; */
+    /* align-items: center; */
+    justify-content: center;
 }

@@ -13,7 +13,6 @@ const Ul = styled.ul`
 	list-style-type: none;
 	font-size: 20pt;
 	text-align: left;
-	* { border-box: box-sizing; }
 	& li{
 		// display:inline-block;
 		// vertical-align: top;
@@ -48,12 +47,12 @@ const ExternalLinks = ({ links }: { links: Array<string> }) => (
 );
 
 
-const Img = styled.img`
-height:40vh;
-width:40vh;
-// clip-path: polygon(50% 100%, 0 0, 100% 0);
-background-color:white
-`
+// const Img = styled.img`
+// height:40vh;
+// width:40vh;
+// // clip-path: polygon(50% 100%, 0 0, 100% 0);
+// background-color:white
+// `
 
 const MyQrCode = styled.div`
 height:160pt;
@@ -73,11 +72,11 @@ export const Contact = () => (
 			bgColor="#222"
 			fgColor="#fff"
 			size="160" value={data.site} />
-			<MyQrCode/>
 			<ExternalLinks  links={data.links} />
-
-		</div>
-	</StyledContact>
-);
-
+			
+			</div>
+			</StyledContact>
+			);
+			
+			/* {<MyQrCode/>} */
 export default Contact;
