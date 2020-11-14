@@ -590,6 +590,14 @@ video {
   height: auto;
 }
 
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
 .container {
   width: 100%;
 }
