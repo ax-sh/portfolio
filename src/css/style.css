@@ -32,3 +32,8 @@ a{
     /* align-items: center; */
     justify-content: center;
 }
+
+.section h1{
+    text-transform: uppercase;
+    color:#000
+}
