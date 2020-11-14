@@ -1,18 +1,13 @@
-@import-normalize; 
+@import "normalize"; /* bring in normalize.css styles */
 
-@import url('https://fonts.googleapis.com/css?family=Nunito|Quicksand');
-@import url('https://fonts.googleapis.com/css?family=Cardo|Carrois+Gothic+SC&display=swap');
+/* rest of app styles */
 :root{
-    --font:Nunito, sans-serif;
+    --font:sans-serif;
     --primary-color:#222831;
     --secondary-color:#30475e;
     --highlight-color:#f05454;
     --grey-color:#e8e8e8;
     --black-color:#111;
-}
-
-h1{
-    /* font-family: Cardo; */
 }
 
 html,body{
@@ -28,12 +23,10 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color:#ababab; */
 }
 
 .about-wrapper{
     display: flex;
-    /* align-items: center; */
     /* align-items: center; */
     justify-content: center;
 }
