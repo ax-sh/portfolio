@@ -2,6 +2,7 @@ import * as React from "react";
 import styled from "styled-components";
 import Section from "./common";
 import data from "../assets/data";
+import QRCode from 'qrcode.react';
 // import profileImg from "../profile-img.webp";
 // import profileImg from "../assets/profile-img.webp";
 
@@ -60,6 +61,7 @@ export const Contact = () => (
 			{/* <Img src={process.env.PUBLIC_URL + '/QRcode.svg'}/> */}
 			{/* <Img src={process.env.PUBLIC_URL + '/QRcode.svg'}/> */}
 			{/* <Img src='profile-img.webp'/> */}
+			<QRCode value={data.site} />
 			<ExternalLinks links={data.links} />
 
 		</div>

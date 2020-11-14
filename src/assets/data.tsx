@@ -1,4 +1,5 @@
 export const data = {
+  site:'https://ax-sh.github.io/portfolio',
   links: [
     'https://www.linkedin.com/in/axmin/',
     'https://github.com/ax-sh',
@@ -13,7 +14,7 @@ export const data = {
       'SQL'
     ],
     human_language:{
-        English:'Intermidiate',
+        English:'Intermediate',
         Nepali:'Conversational',
         Newari:'Understandable'
     }
