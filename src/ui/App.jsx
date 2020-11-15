@@ -19,7 +19,7 @@ function App() {
         <div className="contact">
           <div className="links">
             <ul>
-              {Object.entries(links).map((k, v)=><li><a href={v}>{k}</a></li>)}
+              {Object.entries(links).map((k, v)=><li><a target="_blank" href={v}>{k}</a></li>)}
             </ul>
           </div>
         </div>
