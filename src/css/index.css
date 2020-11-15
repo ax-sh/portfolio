@@ -8,7 +8,8 @@
 :root{
   --font-family: 'Josefin Sans', sans-serif;
   /* https://colorhunt.co/palette/220248 */
-  --primary-color: #222831;
+  /* --primary-color: #222831; */
+  --primary-color: #191e2b;
   /* --primary-color: #252a34; */
   --secondary-color:#e8e8e8;
   --highlight-color:#f05454;
