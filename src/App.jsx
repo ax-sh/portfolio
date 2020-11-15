@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 function App() {
   // Create the count state.
@@ -19,7 +19,7 @@ function App() {
           Edit <code>src/App.jsx</code> and save to reload.
         </p>
         <p>
-          Page has been open for <code>{count}</code> seconds.
+          Page has  open for <code>{count}</code> seconds.
         </p>
         <p>
           <a
