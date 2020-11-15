@@ -12,7 +12,9 @@
         "snowpack.config.js": true,
         "yarn.lock": true,
         ".gitignore": true,
-        "logo.svg": true
+        "logo.svg": true,
+        "node_modules": true,
+        ".vscode": true
     },
     "explorerExclude.backup": null
 }
