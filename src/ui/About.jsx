@@ -1,7 +1,7 @@
 import React from 'react';
 
 const AboutMe = () => (<div>
-  <h1>Axmin Shrestha</h1>
+  <h1><span>Axmin</span> Shrestha </h1>
   <h2>UI/UX Designer & Front-End Developer</h2>
 </div>);
 
