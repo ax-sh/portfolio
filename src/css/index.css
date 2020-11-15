@@ -38,7 +38,38 @@ a{
   color:var(--highlight-color)
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+	/* container properties */
+	.scrollbar {
+		width:100%;
+		max-width:100%;
+		height:400px;
+		/* background-color:#7bd6fc; */
+		/* overflow-y:scroll; */
+	}
+	
+	/* customize scrollbar css */
+	.scroll-custom::-webkit-scrollbar{
+		width:5px;
+		background-color:#cccccc;
+	}
+	.scroll-custom::-webkit-scrollbar:horizontal{
+		height:5px;
+	}
+	.scroll-custom::-webkit-scrollbar-track{
+		border:1px #787878 solid;
+		border-radius:10px;
+		-webkit-box-shadow:0 0 6px #c8c8c8 inset;
+	}
+	.scroll-custom::-webkit-scrollbar-thumb{
+		background-color:#000000;
+		border:1px solid #000000;
+		border-radius:16px;
+	}
+	.scroll-custom::-webkit-scrollbar-thumb:hover{
+		background-color:#bf4649;
+		border:1px solid #333333;
+	}
+	.scroll-custom::-webkit-scrollbar-thumb:active{
+		background-color:#000000;
+		border:1px solid #333333;
+	}
