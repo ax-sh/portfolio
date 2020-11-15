@@ -131,6 +131,7 @@ main > div{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction:column;
   ul{
     list-style: none;
     font-size: 2em;
@@ -144,5 +145,14 @@ main > div{
     a:active{
       text-transform: uppercase;
     }
+  }
+  #email{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+  }
+  #email:hover{
+    color: var(--highlight-green);
+    letter-spacing:1pt
   }
 }
