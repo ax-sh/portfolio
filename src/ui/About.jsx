@@ -11,6 +11,9 @@ const AboutMe = () => (<div>
     I like to work on interesting computer projects all the time, and have also created a few other projects on my github.
   </p>
   <p>
+    I try to design my work based on the aesthetics, usability and simplicity.
+  </p>
+  <p>
     I am available for hire. I've got experience with frameworks like React, TailwindCSS, Flask and few others that I enjoy. 
     If you've got a project in mind, feel free to contact me via email (at the bottom).
   </p>
@@ -28,17 +31,18 @@ export const About = () => (
       <div className="right">
         <AboutMe />
         <div className="skills">
-          React,
-          {/* <br/> */}
-          Git and Gitflow,
-          {/* <br/> */}
-          Reactjs,
-          {/* <br/> */}
-          Nextjs,
-          {/* <br/> */}
-          Bootstrap,
-          {/* <br/> */}
-          Tailwind,
+          <h4>Skills</h4>
+          React, 
+
+          Git,   
+
+          Reactjs,  
+          
+          Nextjs, 
+          
+          Bootstrap, 
+
+          Tailwind, 
         </div>
       </div>
     </div>
