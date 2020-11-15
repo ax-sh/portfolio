@@ -1,29 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import '../css/App.scss';
+import { About } from './About';
+import { Contact } from './Contact';
+import { Work } from './Work'; 
 
-const links = {
-  github:"",
-  linkedin:"",
-  codesandbox:"",
-  twitter:"",
-  github:"",
-}
+import {Header} from './Header';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      {/* <header className="App-header">
-        nav
-      </header> */}
-      {/* <main> */}
-        <div className="contact">
-          <div className="links">
-            <ul>
-              {Object.entries(links).map((k, v)=><li><a target="_blank" href={v}>{k}</a></li>)}
-            </ul>
-          </div>
-        </div>
-      {/* </main> */}
+    <div id="App">
+      <Header/>
+
+      <main>
+        <About/>
+        <Work/>
+        <Contact/>
+      </main>
     </div>
   );
 }

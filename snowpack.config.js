@@ -6,7 +6,7 @@ module.exports = {
   },
   plugins: ['@snowpack/plugin-react-refresh', '@snowpack/plugin-dotenv','@snowpack/plugin-sass'],
   install: [
-    /* ... */
+    "~modern-css-reset/dist/reset.min.css"
   ],
   installOptions: {
     /* ... */
