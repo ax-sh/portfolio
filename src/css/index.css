@@ -17,8 +17,7 @@
   --highlight-green:#54f0a8;
   /* --highlight-color1:#1b1b2f; */
 }
-
-*{
+html, body, h1,h2{
   margin: 0;
   padding: 0;
 }

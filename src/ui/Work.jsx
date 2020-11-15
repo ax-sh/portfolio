@@ -6,7 +6,12 @@ export const Work = () => {
       <h1>WORK</h1>
       <div className="work-wrapper">
 
-        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(i => <div>{i}</div>)}
+        {[...Array(51).keys()].map(i => <div>
+          <span>
+          {i}
+          </span>
+          <img src={"https://picsum.photos/500/300/?blur&random="+i}/>
+          </div>)}
       </div>
     </div>
   );

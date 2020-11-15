@@ -94,13 +94,22 @@ main > div{
 
 #work{
   text-align: center;
+
   .work-wrapper{
     display: flex;
     flex-wrap:wrap;
+    margin: auto;
+    width:90%;
+    height:100%;
+    overflow:  hidden auto;
     & > div{
+      span{
+        position: absolute;
+        font-size:2rem
+      }
       width:33.33333%;
-      height:100pt;
-      // flex:1
+      height:200pt;
+      position: relative;
     }
   }
 }
