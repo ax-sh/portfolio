@@ -1,17 +1,21 @@
-import React from 'react';
+import React from "react";
 
 export const Work = () => {
   return (
-    <div id="work" >
+    <div id="work">
       <h1>WORK</h1>
       <div className="work-wrapper scroll-custom">
+        <div>
+          <span>latido</span>
+          {/* <img src={"https://picsum.photos/500/300/?blur&random="} /> */}
+        </div>
 
-        {[...Array(51).keys()].map(i => <div>
-          <span>
-          {i}
-          </span>
-          <img src={"https://picsum.photos/500/300/?blur&random="+i}/>
-          </div>)}
+        {/* {[...Array(51).keys()].map((i) => (
+          <div>
+            <span>{i}</span>
+            <img src={"https://picsum.photos/500/300/?blur&random=" + i} />
+          </div>
+        ))} */}
       </div>
     </div>
   );

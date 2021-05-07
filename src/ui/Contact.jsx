@@ -1,34 +1,47 @@
-import React from 'react';
+import React from "react";
 // import { ExternalLinks } from './App';
+import Obfuscate from "react-obfuscate";
 
 const data = {
-  email:'example@example.com',
-  cv:"",
-  links:{
-    Github:"",
-    'Linked in':"",
-    'Code Sandbox':"",
-    Twitter:"",
-    Website:"",
-    CV:""
-  }
-}
-  
-export const ExternalLinks =()=>(
-      <div className="links">
-          <ul>
-              {Object.entries(data.links).map((k, v) => <li key={v}><a target="_blank" href={v}>{k}</a></li>)}
-          </ul>
-      </div>
-) 
+  email: "example@example.com",
+  cv: "",
+  links: {
+    Github: "https://github.com/ax-sh",
+    LinkedIn: "https://www.linkedin.com/in/axmin/",
+    CodeSandbox: "https://codesandbox.io/u/ax-sh",
+    Twitter: "https://twitter.com/ax___sh",
+    Website: "",
+    CV: "",
+  },
+};
+
+export const ExternalLinks = () => (
+  <div className="links">
+    <ul>
+      {Object.entries(data.links).map(([label, value]) => (
+        <li key={label}>
+          <Obfuscate target="_blank" href={value}>
+            {label}
+          </Obfuscate>
+        </li>
+      ))}
+    </ul>
+  </div>
+);
 
 export const Contact = () => (
   <div id="contact">
     <ExternalLinks />
-    <h1 >
-      <a id="email" href={"mailto:"+data.email}>
-        {data.email}
-      </a>
-    </h1>
+    {/* <h1>
+      <Obfuscate
+        email={data.email}
+        // headers={{
+        //   cc: "kate@acidburn.af",
+        //   bcc: "tanderson@metacortex.net",
+        //   subject: "react-obfuscate",
+        //   body: "Down with the machines!",
+        // }}
+      />
+    </h1> */}
   </div>
 );
