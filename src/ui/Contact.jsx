@@ -4,14 +4,14 @@ import Obfuscate from "react-obfuscate";
 
 const data = {
   email: "example@example.com",
-  cv: "",
+  // cv: "",
   links: {
     Github: "https://github.com/ax-sh",
     LinkedIn: "https://www.linkedin.com/in/axmin/",
     CodeSandbox: "https://codesandbox.io/u/ax-sh",
     Twitter: "https://twitter.com/ax___sh",
-    Website: "",
-    CV: "",
+    Website: "https://ax-sh.github.io/portfolio/",
+    // CV: "",
   },
 };
 
