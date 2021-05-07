@@ -42,7 +42,7 @@ export const About = () => (
         <AboutMe />
         <div className="skills">
           <h4>Skills</h4>
-          Reactjs, Nextjs, Gatsby, Git, Bootstrap, Tailwind
+          Reactjs, Nextjs, Gatsby, Git, Bootstrap, Tailwind, Three.js, D3.js
         </div>
       </div>
     </div>
