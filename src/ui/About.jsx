@@ -12,7 +12,7 @@ const descriptions = [
   //     also created a few other projects on my github.
 
   `I am available for hire. If you've got a project in
-      mind, feel free to contact me via email (at the bottom).`,
+      mind, feel free to contact me contact details below (at the bottom).`,
 ];
 {
   /* <h2>UI/UX Designer & Full-Stack Developer</h2> */
