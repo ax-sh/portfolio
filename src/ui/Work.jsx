@@ -42,14 +42,11 @@ const Selected = ({ data, callback }) => {
 export const Work = () => {
   const [works] = React.useState({
     proj_l: {
-      "3d": "http://latido-3d-v1.s3-website.ap-south-1.amazonaws.com/",
-      blog: "http://bottle-project-latido-web-test.s3-website-us-east-1.amazonaws.com/blog",
-      about:
-        " http://bottle-project-latido-web-test.s3-website-us-east-1.amazonaws.com/about",
-      factory_tour:
-        "http://bottle-project-latido-web-test.s3-website-us-east-1.amazonaws.com/factory-tour",
-      custom_podcast_player:
-        "http://bottle-project-latido-web-test.s3-website-us-east-1.amazonaws.com/blog/Test-Audio-Published",
+      "3d": "https://bit.ly/3o91skp",
+      blog: "https://bit.ly/3tH5bH4",
+      about: "https://bit.ly/3feXZwE",
+      factory_tour: "https://bit.ly/3bjAcKG",
+      custom_podcast_player: "https://bit.ly/3y7GUxi",
     },
   });
   const [selected, setSelected] = React.useState();
