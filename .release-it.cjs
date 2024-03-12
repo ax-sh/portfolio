@@ -45,7 +45,7 @@ module.exports = {
 			"git flow release finish --notag",
 			"git push origin --tags",
 			"echo \uD83D\uDE4C Successfully released ${name} v${version} to ${repo.repository}.",
-			"git push origin HEAD",
+			"git push -u origin HEAD",
 			"git push origin refs/heads/master:master",
 			"echo Successfully released ${name} v${version} to ${repo.repository}.",
 		],
