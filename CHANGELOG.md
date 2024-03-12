@@ -1,11 +1,12 @@
 
 
-## [0.25.0](https://github.com/ax-sh/portfolio/compare/0.24.0...0.25.0) (2024-03-12)
+## [0.26.0](https://github.com/ax-sh/portfolio/compare/0.25.0...0.26.0) (2024-03-12)
 
+## [0.25.0](https://github.com/ax-sh/portfolio/compare/0.24.0...0.25.0) (2024-03-12)
 
 ### Features
 
-* Add Anaconda icon to main-stacks-section ([e77976c](https://github.com/ax-sh/portfolio/commit/e77976c517bf4585a2887f46aba28b1a1e802bb6))
+- Add Anaconda icon to main-stacks-section ([e77976c](https://github.com/ax-sh/portfolio/commit/e77976c517bf4585a2887f46aba28b1a1e802bb6))
 
 ## [0.24.0](https://github.com/ax-sh/portfolio/compare/0.23.0...0.24.0) (2024-03-12)
 
