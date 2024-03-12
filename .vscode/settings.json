@@ -20,13 +20,18 @@
 	},
 	"explorerExclude.backup": null,
 	"cSpell.words": [
+		"clsx",
 		"commitlint",
 		"craco",
+		"devicon",
+		"inlinesvg",
 		"Newari",
 		"numiterations",
+		"oxlint",
 		"predeploy",
 		"tailwindcss",
 		"uglifyjs",
+		"unplugin",
 		"windi",
 		"windicss",
 		"zopfli"
