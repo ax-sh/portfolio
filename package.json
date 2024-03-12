@@ -90,6 +90,9 @@
 			"node": true,
 			"es6": true
 		},
-		"extends": ["xo-react", "./node_modules/xo/config/plugins.js"]
+		"extends": [
+			"xo-react",
+			"./node_modules/xo/config/plugins.js"
+		]
 	}
 }
