@@ -1,11 +1,17 @@
 
 
-## [0.34.0](https://github.com/ax-sh/portfolio/compare/0.33.0...0.34.0) (2024-03-12)
+## [0.35.0](https://github.com/ax-sh/portfolio/compare/0.34.0...0.35.0) (2024-03-12)
 
+
+### Bug Fixes
+
+* Update build command to use pnpm instead of npm ([da6f94b](https://github.com/ax-sh/portfolio/commit/da6f94b5ed0248a8d10206cc4c1f0dfce8056e3e))
+
+## [0.34.0](https://github.com/ax-sh/portfolio/compare/0.33.0...0.34.0) (2024-03-12)
 
 ### Features
 
-* add pnpm as package manager and configure version 8 ([aa2bf53](https://github.com/ax-sh/portfolio/commit/aa2bf53aa3b348c88026bd54782076311d397e8d))
+- add pnpm as package manager and configure version 8 ([aa2bf53](https://github.com/ax-sh/portfolio/commit/aa2bf53aa3b348c88026bd54782076311d397e8d))
 
 ## [0.33.0](https://github.com/ax-sh/portfolio/compare/0.32.0...0.33.0) (2024-03-12)
 
