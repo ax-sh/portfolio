@@ -1,8 +1,11 @@
 module.exports = {
 	git: {
+		requireCleanWorkingDir: false,
 		commitMessage: "ci: release v${version}",
 		tag: true,
 		commit: true,
+		push: false,
+
 		changelog:
 			"npx auto-changelog --stdout --commit-limit false -u --template https://raw.githubusercontent.com/release-it/release-it/main/templates/changelog-compact.hbs",
 	},
@@ -39,6 +42,7 @@ module.exports = {
 		],
 		"after:release": [
 			"git flow release finish --notag",
+			"git push origin --tags",
 			"echo \uD83D\uDE4C Successfully released ${name} v${version} to ${repo.repository}.",
 			"git push origin HEAD",
 			"git push origin refs/heads/master:master",

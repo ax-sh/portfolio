@@ -1,7 +1,7 @@
 {
 	"name": "portfolio",
 	"private": true,
-	"version": "0.15.0",
+	"version": "0.18.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
@@ -11,8 +11,8 @@
 		"lint:fix": "pnpm xo --fix",
 		"preview": "vite preview",
 		"prepare": "pnpm exec husky init",
-		"release": "dotenv release-it --only-version --",
-		"release-pr": "dotenv release-it --only-version -- --ci",
+		"release-i": "dotenv release-it --only-version --",
+		"release": "dotenv release-it --only-version -- --ci",
 		"test": "vitest run",
 		"ox": "oxlint -c .xo-config.json",
 		"update-deps": "pnpm up -i --latest"
