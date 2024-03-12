@@ -1,5 +1,12 @@
 
 
+## [0.24.0](https://github.com/ax-sh/portfolio/compare/0.23.0...0.24.0) (2024-03-12)
+
+
+### Features
+
+* Add devicons-react package to dependencies ([47bf924](https://github.com/ax-sh/portfolio/commit/47bf924a13e63e920be7cedf1e0d8fe7b68548c2))
+
 ## [0.23.0](https://github.com/ax-sh/portfolio/compare/0.22.0...0.23.0) (2024-03-12)
 
 ## [0.22.0](https://github.com/ax-sh/portfolio/compare/0.21.0...0.22.0) (2024-03-12)
