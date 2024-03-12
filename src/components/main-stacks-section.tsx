@@ -69,6 +69,8 @@ import {
 	WebstormOriginal,
 	GithubactionsOriginal,
 	FigmaOriginal,
+	BunOriginal,
+	AnacondaOriginal,
 } from "devicons-react";
 
 import { Tooltip } from "react-tooltip";
@@ -96,10 +98,12 @@ export function MainStacksSection() {
 			<StacksSection label="Skills">
 				{/* <DevIconWithToolTip icon={siIterm2} size={iconSize} /> */}
 
-				<DevIconOriginalWithToolTip icon={VitejsOriginal} size={iconSize} label={"Vite"} />
-				<DevIconOriginalWithToolTip icon={VitestOriginal} size={iconSize} label={"Vitest"} />
-				<DevIconOriginalWithToolTip icon={NotionOriginal} size={iconSize} label={"Notion"} />
-				<DevIconOriginalWithToolTip icon={WebstormOriginal} size={iconSize} label={"Webstorm"} />
+				<DevIconOriginalWithToolTip label={"Vite"} icon={VitejsOriginal} size={iconSize} />
+				<DevIconOriginalWithToolTip label={"Vitest"} icon={VitestOriginal} size={iconSize} />
+				<DevIconOriginalWithToolTip label={"Bun"} icon={BunOriginal} size={iconSize} />
+				<DevIconOriginalWithToolTip label={"Notion"} icon={NotionOriginal} size={iconSize} />
+				<DevIconOriginalWithToolTip label={"Anaconda"} icon={AnacondaOriginal} size={iconSize} />
+				<DevIconOriginalWithToolTip label={"Webstorm"} icon={WebstormOriginal} size={iconSize} />
 
 				{/* <DevIconWithToolTip icon={siHomebrew} size={iconSize} /> */}
 				{/*<DevIconWithToolTip icon={siVite} size={iconSize} />*/}
