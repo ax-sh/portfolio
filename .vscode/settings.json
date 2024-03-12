@@ -1,0 +1,33 @@
+{
+	"compile-hero.disable-compile-files-on-did-save-code": false,
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/node_modules": true,
+		"node_modules": true,
+		"**/build": true,
+		"build": true,
+		"src/setupTests.ts": true,
+		"setupTests.ts": true,
+		"src/reportWebVitals.ts": true,
+		"src/react-app-env.d.ts": true,
+		"README.md": true,
+		".gitignore": true,
+		"coverage": true
+	},
+	"explorerExclude.backup": null,
+	"cSpell.words": [
+		"commitlint",
+		"craco",
+		"Newari",
+		"numiterations",
+		"predeploy",
+		"uglifyjs",
+		"windi",
+		"windicss",
+		"zopfli"
+	]
+}

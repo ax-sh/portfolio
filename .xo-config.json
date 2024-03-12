@@ -1,0 +1,39 @@
+{
+	"extends": ["xo", "xo-react", "prettier"],
+	"plugins": ["prettier"],
+	"rules": {
+		"prettier/prettier": ["error"],
+		"capitalized-comments": "off",
+		"react/react-in-jsx-scope": "off",
+		"object-curly-spacing": "off",
+		"@typescript-eslint/triple-slash-reference": "off",
+		"import/extensions": "off",
+		"n/file-extension-in-import": "off",
+		"unicorn/prefer-module": "off",
+		"new-cap": ["warn"],
+		"react/no-unescaped-entities": "off",
+		"@typescript-eslint/ban-ts-comment": "off",
+		"@typescript-eslint/prefer-ts-expect-error": "off",
+		"react/jsx-pascal-case": "off",
+
+		"unicorn/filename-case": [
+			"warn",
+			{
+				"case": "kebabCase"
+			}
+		]
+	},
+	"overrides": [
+		{
+			"files": ["**/constants/*.ts"],
+			"rule": { "@typescript-eslint/naming-convention": "off" }
+		},
+		{
+			"files": ["*.config.js", "*.config.ts"],
+			"rule": {
+				"@typescript-eslint/ban-ts-comment": "off",
+				"new-cap": "off"
+			}
+		}
+	]
+}
