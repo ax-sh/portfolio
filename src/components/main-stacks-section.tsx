@@ -10,6 +10,7 @@ import {
 	siD3dotjs,
 	siDocker,
 	siDotenv,
+	siDrizzle,
 	siEslint,
 	siFigma,
 	siFirebase,
@@ -28,6 +29,7 @@ import {
 	siMongodb,
 	siNetlify,
 	siNextdotjs,
+	siNotion,
 	siPocketbase,
 	siPostman,
 	siPrecommit,
@@ -66,9 +68,10 @@ import { StacksSection } from "./stacks-section.tsx";
 export function MainStacksSection() {
 	const iconSize = 24;
 	return (
-		<section className="flex flex-col gap-8 py-8">
+		<section className="flex flex-col gap-8 py-8 text-dark-fg">
 			<StacksSection label="Skills">
 				{/* <DevIconWithToolTip icon={siIterm2} size={iconSize} /> */}
+				<DevIconWithToolTip icon={siNotion} size={iconSize} />
 
 				{/* <DevIconWithToolTip icon={siHomebrew} size={iconSize} /> */}
 				<DevIconWithToolTip icon={siVite} size={iconSize} />
@@ -144,6 +147,8 @@ export function MainStacksSection() {
 				<DevIconWithToolTip icon={siPrisma} size={iconSize} />
 				<DevIconWithToolTip icon={siPocketbase} size={iconSize} />
 				<DevIconWithToolTip icon={siMongodb} size={iconSize} />
+				<DevIconWithToolTip icon={siDrizzle} size={iconSize} />
+
 				<DevIconWithToolTip icon={siFirebase} size={iconSize} />
 			</StacksSection>
 			<section className="flex items-center flex-wrap gap-2 before:content-['Code_Quality:'] ">

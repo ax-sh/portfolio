@@ -2,7 +2,6 @@ import React from "react";
 import { useRoutes } from "react-router-dom";
 import clsx from "clsx";
 import routes from "~react-pages";
-import { log } from "console";
 
 export function Loader() {
 	return <h5 className="animate-ping prose text-6xl">LOADING...</h5>;

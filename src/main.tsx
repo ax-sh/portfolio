@@ -9,10 +9,11 @@ import "./index.scss";
 
 ReactGA.initialize("G-E48LPPQFMR");
 
+// biome-ignore lint/style/noNonNullAssertion: <explanation>
 ReactDOM.createRoot(document.querySelector("#root")!).render(
 	<React.StrictMode>
 		<Router>
 			<App />
 		</Router>
-	</React.StrictMode>
+	</React.StrictMode>,
 );
