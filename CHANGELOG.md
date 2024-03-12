@@ -1,5 +1,7 @@
 
 
+## [0.31.0](https://github.com/ax-sh/portfolio/compare/0.30.0...0.31.0) (2024-03-12)
+
 ## [0.30.0](https://github.com/ax-sh/portfolio/compare/0.29.0...0.30.0) (2024-03-12)
 
 ## [0.29.0](https://github.com/ax-sh/portfolio/compare/0.28.0...0.29.0) (2024-03-12)
