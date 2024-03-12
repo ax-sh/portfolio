@@ -15,7 +15,8 @@
 		"release": "dotenv release-it --only-version -- --ci",
 		"test": "vitest run",
 		"ox": "oxlint -c .xo-config.json",
-		"update-deps": "pnpm up -i --latest"
+		"update-deps": "pnpm up -i --latest",
+		"pr-master": "gh pr create --fill -B master"
 	},
 	"dependencies": {
 		"@babel/runtime": "^7.24.0",
@@ -86,9 +87,6 @@
 			"node": true,
 			"es6": true
 		},
-		"extends": [
-			"xo-react",
-			"./node_modules/xo/config/plugins.js"
-		]
+		"extends": ["xo-react", "./node_modules/xo/config/plugins.js"]
 	}
 }
