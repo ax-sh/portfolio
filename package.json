@@ -12,11 +12,13 @@
 		"preview": "vite preview",
 		"prepare": "pnpm exec husky init",
 		"release-i": "dotenv release-it --only-version --",
-		"release": "dotenv release-it --only-version -- --ci",
+		"release:patch": "dotenv release-it --only-version -- --ci",
 		"test": "vitest run",
 		"ox": "oxlint -c .xo-config.json",
 		"update-deps": "pnpm up -i --latest",
-		"pr-master": "gh pr create --fill -B master"
+		"pr-master": "gh pr create --fill -B master",
+		"release:major": "dotenv release-it major -- --ci",
+		"release": "pnpm release:minor"
 	},
 	"dependencies": {
 		"@babel/runtime": "^7.24.0",
