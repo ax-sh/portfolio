@@ -1,3 +1,18 @@
+
+
+## [0.21.0](https://github.com/ax-sh/portfolio/compare/0.20.0...0.21.0) (2024-03-12)
+
+
+### Features
+
+* Add title prop to DevIcon component ([0db6c2d](https://github.com/ax-sh/portfolio/commit/0db6c2dc02cd92eed0f3609222c8a2ed7907c6ed))
+
+
+### Bug Fixes
+
+* Correctly display tooltip title for DevIconWithToolTip component ([534be39](https://github.com/ax-sh/portfolio/commit/534be39608a761ec9a13c7bc360d6ed26cfc6211))
+* Update DevIcon component to handle ReactNode type icons ([74385b2](https://github.com/ax-sh/portfolio/commit/74385b219f2a169335ac98ac0cf949bccfe3ba0b))
+
 ## [0.20.0](https://github.com/ax-sh/portfolio/compare/0.19.0...0.20.0) (2024-03-12)
 
 ## 0.19.0 (2024-03-12)
