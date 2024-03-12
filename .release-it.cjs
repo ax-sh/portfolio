@@ -49,6 +49,6 @@ module.exports = {
 			"git push origin refs/heads/master:master",
 			"echo Successfully released ${name} v${version} to ${repo.repository}.",
 		],
-		// "after:git:release": "gh pr create --fill -B master",
+		"after:git:release": "gh pr create --fill -B master",
 	},
 };
