@@ -1,4 +1,4 @@
-import { render, screen, within } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 
 import { StacksSection } from "./stacks-section";
 
@@ -7,11 +7,11 @@ describe(StacksSection.name, () => {
 		render(
 			<main>
 				<StacksSection label="foo">child</StacksSection>
-			</main>
+			</main>,
 		);
 		expect.hasAssertions();
 		const main = screen.getByRole("main");
 		expect(main).toBeDefined();
-		const o = within(main);
+		// const o = within(main);
 	});
 });
