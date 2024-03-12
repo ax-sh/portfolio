@@ -1,25 +1,41 @@
 
 
-## 0.18.0 (2024-03-12)
+## [0.20.0](https://github.com/ax-sh/portfolio/compare/0.19.0...0.20.0) (2024-03-12)
 
+## 0.19.0 (2024-03-12)
 
 ### Features
 
-* add git push false option for release commits ([74bb442](https://github.com/ax-sh/portfolio/commit/74bb4429bc5df97371928052c29fb757ca390c6b))
-* Add tailwindcss to list of settings in vscode settings.json ([b2cb845](https://github.com/ax-sh/portfolio/commit/b2cb845131664eb2c7b6576afc4e25229c51470a))
-* init ([ad34009](https://github.com/ax-sh/portfolio/commit/ad34009e478f5b0f484dd322df95204d83692259))
-
+- add git push false option for release commits ([74bb442](https://github.com/ax-sh/portfolio/commit/74bb4429bc5df97371928052c29fb757ca390c6b))
+- Add new release:major script and update release script ([da3890f](https://github.com/ax-sh/portfolio/commit/da3890f550e47e4169ed7153342e03b27aa90d9d))
+- Add new words to cSpell.words in settings.json ([9062b6e](https://github.com/ax-sh/portfolio/commit/9062b6eca6934dd27b0a0beb8249194e01b2a487))
+- add release:minor script ([fe946f0](https://github.com/ax-sh/portfolio/commit/fe946f01d16d88e1f742133dfa0131ca974a2a79))
+- Add tailwindcss to list of settings in vscode settings.json ([b2cb845](https://github.com/ax-sh/portfolio/commit/b2cb845131664eb2c7b6576afc4e25229c51470a))
+- init ([ad34009](https://github.com/ax-sh/portfolio/commit/ad34009e478f5b0f484dd322df95204d83692259))
 
 ### Bug Fixes
 
-* Update package.json version to 0.17.0 and reorder release scripts ([dbf7250](https://github.com/ax-sh/portfolio/commit/dbf7250b9da4120988299a75b0840bbd0dc0ed50))
+- Move "git flow release finish --notag" to correct position ([1693a8b](https://github.com/ax-sh/portfolio/commit/1693a8b2e88443c5b52dd60d24248ff1ae6724e6))
+- Update git push command to include upstream tracking branch ([f96bddf](https://github.com/ax-sh/portfolio/commit/f96bddf741df00ee26f0b82a1148df7e5c0ddbdb))
+- Update package.json version to 0.17.0 and reorder release scripts ([dbf7250](https://github.com/ax-sh/portfolio/commit/dbf7250b9da4120988299a75b0840bbd0dc0ed50))
 
-## 0.15.0 (2024-03-12)
-
+## 0.18.0 (2024-03-12)
 
 ### Features
 
-* init ([ad34009](https://github.com/ax-sh/portfolio/commit/ad34009e478f5b0f484dd322df95204d83692259))
+- add git push false option for release commits ([74bb442](https://github.com/ax-sh/portfolio/commit/74bb4429bc5df97371928052c29fb757ca390c6b))
+- Add tailwindcss to list of settings in vscode settings.json ([b2cb845](https://github.com/ax-sh/portfolio/commit/b2cb845131664eb2c7b6576afc4e25229c51470a))
+- init ([ad34009](https://github.com/ax-sh/portfolio/commit/ad34009e478f5b0f484dd322df95204d83692259))
+
+### Bug Fixes
+
+- Update package.json version to 0.17.0 and reorder release scripts ([dbf7250](https://github.com/ax-sh/portfolio/commit/dbf7250b9da4120988299a75b0840bbd0dc0ed50))
+
+## 0.15.0 (2024-03-12)
+
+### Features
+
+- init ([ad34009](https://github.com/ax-sh/portfolio/commit/ad34009e478f5b0f484dd322df95204d83692259))
 
 ## 0.13.0 (2024-03-12)
 

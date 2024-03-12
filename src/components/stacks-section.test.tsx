@@ -7,7 +7,7 @@ describe(StacksSection.name, () => {
 		render(
 			<main>
 				<StacksSection label="foo">child</StacksSection>
-			</main>,
+			</main>
 		);
 		expect.hasAssertions();
 		const main = screen.getByRole("main");

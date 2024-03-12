@@ -5,7 +5,7 @@ import { PersonalLink } from "./personal-link.tsx";
 
 export function ConnectSection() {
 	return (
-		<section className="flex gap-4 flex-wrap items-center">
+		<section className="flex gap-4 flex-wrap items-center lead">
 			<span>Connect:</span>
 			{Object.entries(social).map(([label, url]) => {
 				switch (label as SocialType) {
@@ -13,7 +13,10 @@ export function ConnectSection() {
 						return (
 							<PersonalLink key={url} target="_blank" href={url}>
 								<DevIconWithToolTip
-									tooltipStyle={{ backgroundColor: `#${siTwitter.hex}`, color: "#fff" }}
+									tooltipStyle={{
+										backgroundColor: `#${siTwitter.hex}`,
+										color: "#fff",
+									}}
 									size={30}
 									icon={siTwitter}
 								/>
@@ -27,7 +30,10 @@ export function ConnectSection() {
 								<DevIconWithToolTip
 									size={30}
 									icon={siLinkedin}
-									tooltipStyle={{ backgroundColor: `#${siLinkedin.hex}`, color: "#fff" }}
+									tooltipStyle={{
+										backgroundColor: `#${siLinkedin.hex}`,
+										color: "#fff",
+									}}
 								/>
 							</PersonalLink>
 						);
@@ -39,7 +45,10 @@ export function ConnectSection() {
 								<DevIconWithToolTip
 									size={30}
 									icon={siUpwork}
-									tooltipStyle={{ backgroundColor: `#${siUpwork.hex}`, color: "#000" }}
+									tooltipStyle={{
+										backgroundColor: `#${siUpwork.hex}`,
+										color: "#000",
+									}}
 								/>
 							</PersonalLink>
 						);
@@ -51,7 +60,10 @@ export function ConnectSection() {
 								<DevIconWithToolTip
 									size={30}
 									icon={siDevdotto}
-									tooltipStyle={{ backgroundColor: `#${siDevdotto.hex}`, color: "#fff" }}
+									tooltipStyle={{
+										backgroundColor: `#${siDevdotto.hex}`,
+										color: "#fff",
+									}}
 								/>
 							</PersonalLink>
 						);

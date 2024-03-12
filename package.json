@@ -1,7 +1,7 @@
 {
 	"name": "portfolio",
 	"private": true,
-	"version": "0.18.0",
+	"version": "0.20.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
@@ -12,11 +12,14 @@
 		"preview": "vite preview",
 		"prepare": "pnpm exec husky init",
 		"release-i": "dotenv release-it --only-version --",
-		"release": "dotenv release-it --only-version -- --ci",
+		"release:patch": "dotenv release-it --only-version -- --ci",
 		"test": "vitest run",
 		"ox": "oxlint -c .xo-config.json",
 		"update-deps": "pnpm up -i --latest",
-		"pr-master": "gh pr create --fill -B master"
+		"pr-master": "gh pr create --fill -B master",
+		"release:minor": "dotenv release-it minor -- --ci",
+		"release:major": "dotenv release-it major -- --ci",
+		"release": "pnpm release:minor"
 	},
 	"dependencies": {
 		"@babel/runtime": "^7.24.0",
@@ -87,6 +90,9 @@
 			"node": true,
 			"es6": true
 		},
-		"extends": ["xo-react", "./node_modules/xo/config/plugins.js"]
+		"extends": [
+			"xo-react",
+			"./node_modules/xo/config/plugins.js"
+		]
 	}
 }
