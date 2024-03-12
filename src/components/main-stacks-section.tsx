@@ -68,7 +68,7 @@ import {
 	SqlitePlainWordmark,
 	WebstormOriginal,
 	GithubactionsOriginal,
-	FigmaOriginal, BunOriginal,
+	FigmaOriginal, BunOriginal, AnacondaOriginal,
 } from "devicons-react";
 
 
@@ -101,6 +101,7 @@ export function MainStacksSection() {
 				<DevIconOriginalWithToolTip  label={"Vitest"} icon={VitestOriginal} size={iconSize} />
 				<DevIconOriginalWithToolTip label={"Bun"} icon={BunOriginal} size={iconSize}  />
 				<DevIconOriginalWithToolTip label={"Notion"} icon={NotionOriginal} size={iconSize}  />
+				<DevIconOriginalWithToolTip label={"Anaconda"} icon={AnacondaOriginal} size={iconSize}  />
 				<DevIconOriginalWithToolTip  label={"Webstorm"} icon={WebstormOriginal} size={iconSize}/>
 
 				{/* <DevIconWithToolTip icon={siHomebrew} size={iconSize} /> */}
