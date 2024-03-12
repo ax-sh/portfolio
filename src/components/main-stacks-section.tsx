@@ -29,7 +29,7 @@ import {
 	siMongodb,
 	siNetlify,
 	siNextdotjs,
-	siNotion,
+
 	siPocketbase,
 	siPostman,
 	siPrecommit,
@@ -61,18 +61,42 @@ import {
 	// siIterm2,
 	// siJavascript,
 } from "simple-icons";
-import { DevIconWithToolTip } from "./dev-icon";
+import {  DevIconWithToolTip } from "./dev-icon";
 import { StacksSection } from "./stacks-section.tsx";
-import { VitejsOriginal,VitestOriginal } from "devicons-react";
+import { VitejsOriginal, VitestOriginal ,NotionOriginal, SqlitePlainWordmark, WebstormOriginal, GithubactionsOriginal, FigmaOriginal} from "devicons-react";
+
+import { Tooltip } from "react-tooltip";
+
+function DevIconOriginalWithToolTip({ icon, size, label }: { size: number; icon: any; label: string }) {
+	const Comp = icon;
+	const tooltipStyle = {};
+	const id = `${label}`;
+	return (
+		<>
+			<span className="cursor-pointer" data-tooltip-id={id}>
+				<Comp size={size} />
+			</span>
+			<Tooltip style={tooltipStyle} id={id}>
+				{id}
+			</Tooltip>
+		</>
+	);
+}
+
 export function MainStacksSection() {
 	const iconSize = 24;
 	return (
 		<section className="flex flex-col gap-8 py-8 text-dark-fg">
 			<StacksSection label="Skills">
 				{/* <DevIconWithToolTip icon={siIterm2} size={iconSize} /> */}
-				<DevIconWithToolTip icon={siNotion} size={iconSize} />
-				<DevIconWithToolTip icon={<VitejsOriginal size={iconSize} />} size={iconSize} title={'Vite'} />
-				<DevIconWithToolTip icon={<VitestOriginal size={iconSize} />} size={iconSize} />
+
+				<DevIconOriginalWithToolTip icon={VitejsOriginal} size={iconSize} label={"Vite"}/>
+				<DevIconOriginalWithToolTip icon={VitestOriginal} size={iconSize} label={"Vitest"}/>
+				<DevIconOriginalWithToolTip icon={NotionOriginal} size={iconSize} label={"Notion"}/>
+				<DevIconOriginalWithToolTip icon={WebstormOriginal} size={iconSize} label={"Webstorm"}/>
+
+
+
 
 				{/* <DevIconWithToolTip icon={siHomebrew} size={iconSize} /> */}
 				{/*<DevIconWithToolTip icon={siVite} size={iconSize} />*/}
@@ -86,7 +110,7 @@ export function MainStacksSection() {
 				{/* <DevIconWithToolTip icon={siYarn} size={iconSize} /> */}
 
 				{/* <DevIconWithToolTip icon={siAnsible} size={iconSize} /> */}
-				<DevIconWithToolTip icon={siFigma} size={iconSize} />
+				<DevIconOriginalWithToolTip icon={FigmaOriginal} size={iconSize} label={"Figma"}/>
 				<DevIconWithToolTip icon={siGoogleanalytics} size={iconSize} />
 				<DevIconWithToolTip icon={siAuth0} size={iconSize} />
 				<DevIconWithToolTip icon={siAwsamplify} size={iconSize} />
@@ -149,7 +173,8 @@ export function MainStacksSection() {
 				<DevIconWithToolTip icon={siPocketbase} size={iconSize} />
 				<DevIconWithToolTip icon={siMongodb} size={iconSize} />
 				<DevIconWithToolTip icon={siDrizzle} size={iconSize} />
-
+				<DevIconOriginalWithToolTip icon={GithubactionsOriginal} size={iconSize} label={"GitHub Actions"}/>
+				<DevIconOriginalWithToolTip icon={SqlitePlainWordmark} size={iconSize} label={"Sqlite"}/>
 				<DevIconWithToolTip icon={siFirebase} size={iconSize} />
 			</StacksSection>
 			<section className="flex items-center flex-wrap gap-2 before:content-['Code_Quality:'] ">
