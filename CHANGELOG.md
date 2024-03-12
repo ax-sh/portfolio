@@ -1,3 +1,7 @@
+
+
+## [0.20.0](https://github.com/ax-sh/portfolio/compare/0.19.0...0.20.0) (2024-03-12)
+
 ## 0.19.0 (2024-03-12)
 
 ### Features
