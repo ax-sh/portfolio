@@ -1,7 +1,7 @@
 {
 	"name": "portfolio",
 	"private": true,
-	"version": "0.17.0",
+	"version": "0.18.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
@@ -86,6 +86,9 @@
 			"node": true,
 			"es6": true
 		},
-		"extends": ["xo-react", "./node_modules/xo/config/plugins.js"]
+		"extends": [
+			"xo-react",
+			"./node_modules/xo/config/plugins.js"
+		]
 	}
 }

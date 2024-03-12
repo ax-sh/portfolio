@@ -11,8 +11,7 @@ module.exports = {
 	},
 	github: {
 		release: true,
-		releaseNotes:
-			'git log --no-merges --pretty=format:"* %s %h" ${latestTag}...master',
+		releaseNotes: 'git log --no-merges --pretty=format:"* %s %h" ${latestTag}...master',
 		comments: {
 			submit: true,
 			issue:
