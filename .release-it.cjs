@@ -8,7 +8,8 @@ module.exports = {
 	},
 	github: {
 		release: true,
-		releaseNotes: 'git log --no-merges --pretty=format:"* %s %h" ${latestTag}...master',
+		releaseNotes:
+			'git log --no-merges --pretty=format:"* %s %h" ${latestTag}...master',
 		comments: {
 			submit: true,
 			issue:
@@ -39,6 +40,7 @@ module.exports = {
 		],
 		"after:release": [
 			"git flow release finish --notag",
+			"git push origin --tags",
 			"echo \uD83D\uDE4C Successfully released ${name} v${version} to ${repo.repository}.",
 			"git push origin HEAD",
 			"git push origin refs/heads/master:master",
