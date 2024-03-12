@@ -1,8 +1,11 @@
 module.exports = {
 	git: {
+		requireCleanWorkingDir: false,
 		commitMessage: "ci: release v${version}",
 		tag: true,
 		commit: true,
+		push: false,
+
 		changelog:
 			"npx auto-changelog --stdout --commit-limit false -u --template https://raw.githubusercontent.com/release-it/release-it/main/templates/changelog-compact.hbs",
 	},
