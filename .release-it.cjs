@@ -32,6 +32,7 @@ module.exports = {
 			"git fetch --tags -f",
 			"git fetch --prune --prune-tags origin",
 			"pnpm test",
+			"pnpm tsc --noEmit",
 			"git update-index -q --refresh",
 		],
 		"before:beforeBump": [
