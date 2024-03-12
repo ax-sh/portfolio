@@ -51,7 +51,6 @@ import {
 	siTampermonkey,
 	siTypescript,
 	siVercel,
-	siVite,
 	siVitest,
 	siXo,
 	siZapier,
@@ -64,7 +63,7 @@ import {
 } from "simple-icons";
 import { DevIconWithToolTip } from "./dev-icon";
 import { StacksSection } from "./stacks-section.tsx";
-import {VitejsOriginal} from 'devicons-react'
+import { VitejsOriginal,VitestOriginal } from "devicons-react";
 export function MainStacksSection() {
 	const iconSize = 24;
 	return (
@@ -72,7 +71,8 @@ export function MainStacksSection() {
 			<StacksSection label="Skills">
 				{/* <DevIconWithToolTip icon={siIterm2} size={iconSize} /> */}
 				<DevIconWithToolTip icon={siNotion} size={iconSize} />
-				<DevIconWithToolTip icon={<VitejsOriginal size={iconSize}/>} size={iconSize} />
+				<DevIconWithToolTip icon={<VitejsOriginal size={iconSize} />} size={iconSize} />
+				<DevIconWithToolTip icon={<VitestOriginal size={iconSize} />} size={iconSize} />
 
 				{/* <DevIconWithToolTip icon={siHomebrew} size={iconSize} /> */}
 				{/*<DevIconWithToolTip icon={siVite} size={iconSize} />*/}
