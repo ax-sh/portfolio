@@ -12,7 +12,7 @@ import {
 	siDotenv,
 	siDrizzle,
 	siEslint,
-	siFigma,
+
 	siFirebase,
 	siGit,
 	siGithub,
