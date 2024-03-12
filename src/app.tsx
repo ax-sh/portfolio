@@ -9,23 +9,14 @@ export function Loader() {
 
 export function ScreenLoader() {
 	return (
-		<section
-			className={clsx(
-				"w-dvw h-dvh overflow-hidden",
-				"grid place-content-center",
-			)}
-		>
+		<section className={clsx("w-dvw h-dvh overflow-hidden", "grid place-content-center")}>
 			<Loader />
 		</section>
 	);
 }
 
 function App() {
-	return (
-		<React.Suspense fallback={<ScreenLoader />}>
-			{useRoutes(routes)}
-		</React.Suspense>
-	);
+	return <React.Suspense fallback={<ScreenLoader />}>{useRoutes(routes)}</React.Suspense>;
 }
 
 export default App;

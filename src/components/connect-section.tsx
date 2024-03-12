@@ -26,12 +26,7 @@ export function ConnectSection() {
 
 					case "LinkedIn": {
 						return (
-							<PersonalLink
-								key={url}
-								className="text-[#0A66C2]"
-								target="_blank"
-								href={url}
-							>
+							<PersonalLink key={url} className="text-[#0A66C2]" target="_blank" href={url}>
 								<DevIconWithToolTip
 									size={30}
 									icon={siLinkedin}
