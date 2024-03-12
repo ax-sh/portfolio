@@ -1,3 +1,12 @@
+
+
+## [0.35.0](https://github.com/ax-sh/portfolio/compare/0.34.0...0.35.0) (2024-03-12)
+
+
+### Bug Fixes
+
+* Update build command to use pnpm instead of npm ([da6f94b](https://github.com/ax-sh/portfolio/commit/da6f94b5ed0248a8d10206cc4c1f0dfce8056e3e))
+
 ## [0.34.0](https://github.com/ax-sh/portfolio/compare/0.33.0...0.34.0) (2024-03-12)
 
 ### Features
