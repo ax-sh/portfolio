@@ -42,10 +42,10 @@ module.exports = {
 			"echo \uD83D\uDC4A before:bump version=v${version} latestVersion=v${latestVersion}",
 		],
 		"after:release": [
-			"git flow release finish --notag",
 			"git push origin --tags",
 			"echo \uD83D\uDE4C Successfully released ${name} v${version} to ${repo.repository}.",
 			"git push -u origin HEAD",
+			"git flow release finish --notag",
 			"git push origin refs/heads/master:master",
 			"echo Successfully released ${name} v${version} to ${repo.repository}.",
 		],
