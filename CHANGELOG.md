@@ -1,11 +1,12 @@
 
 
-## [0.22.0](https://github.com/ax-sh/portfolio/compare/0.21.0...0.22.0) (2024-03-12)
+## [0.23.0](https://github.com/ax-sh/portfolio/compare/0.22.0...0.23.0) (2024-03-12)
 
+## [0.22.0](https://github.com/ax-sh/portfolio/compare/0.21.0...0.22.0) (2024-03-12)
 
 ### Features
 
-* add 'pnpm tsc --noEmit' command to release script ([1660dfe](https://github.com/ax-sh/portfolio/commit/1660dfeca4f8938810674e31537f0f49ab4ecaca))
+- add 'pnpm tsc --noEmit' command to release script ([1660dfe](https://github.com/ax-sh/portfolio/commit/1660dfeca4f8938810674e31537f0f49ab4ecaca))
 
 ## [0.21.0](https://github.com/ax-sh/portfolio/compare/0.20.0...0.21.0) (2024-03-12)
 
