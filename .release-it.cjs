@@ -4,14 +4,15 @@ module.exports = {
 		commitMessage: "ci: release v${version}",
 		tag: true,
 		commit: true,
-		push: false,
+		push: true,
 
 		changelog:
 			"npx auto-changelog --stdout --commit-limit false -u --template https://raw.githubusercontent.com/release-it/release-it/main/templates/changelog-compact.hbs",
 	},
 	github: {
 		release: true,
-		releaseNotes: 'git log --no-merges --pretty=format:"* %s %h" ${latestTag}...master',
+		releaseNotes:
+			'git log --no-merges --pretty=format:"* %s %h" ${latestTag}...master',
 		comments: {
 			submit: true,
 			issue:
