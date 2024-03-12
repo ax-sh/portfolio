@@ -71,7 +71,7 @@ export function MainStacksSection() {
 			<StacksSection label="Skills">
 				{/* <DevIconWithToolTip icon={siIterm2} size={iconSize} /> */}
 				<DevIconWithToolTip icon={siNotion} size={iconSize} />
-				<DevIconWithToolTip icon={<VitejsOriginal size={iconSize} />} size={iconSize} />
+				<DevIconWithToolTip icon={<VitejsOriginal size={iconSize} />} size={iconSize} title={'Vite'} />
 				<DevIconWithToolTip icon={<VitestOriginal size={iconSize} />} size={iconSize} />
 
 				{/* <DevIconWithToolTip icon={siHomebrew} size={iconSize} /> */}
