@@ -1,3 +1,12 @@
+
+
+## [0.34.0](https://github.com/ax-sh/portfolio/compare/0.33.0...0.34.0) (2024-03-12)
+
+
+### Features
+
+* add pnpm as package manager and configure version 8 ([aa2bf53](https://github.com/ax-sh/portfolio/commit/aa2bf53aa3b348c88026bd54782076311d397e8d))
+
 ## [0.33.0](https://github.com/ax-sh/portfolio/compare/0.32.0...0.33.0) (2024-03-12)
 
 ## [0.32.0](https://github.com/ax-sh/portfolio/compare/0.31.0...0.32.0) (2024-03-12)
