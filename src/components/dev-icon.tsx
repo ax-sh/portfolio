@@ -3,8 +3,7 @@ import SVG from "react-inlinesvg";
 import React, { type ComponentProps, type CSSProperties } from "react";
 import { Tooltip } from "react-tooltip";
 
-type DevIconProps =
-	| { readonly icon: SimpleIcon; readonly size: number }
+type DevIconProps = { readonly icon: SimpleIcon; readonly size: number };
 export function DevIcon({ icon, size }: DevIconProps) {
 	// @ts-ignore
 	return <SVG src={icon.svg} fill={`#${icon.hex}`} height="auto" width={size} title={icon.title} />;
@@ -15,7 +14,7 @@ type DevIconWithToolTipProps = ComponentProps<typeof DevIcon> & {
 };
 
 export function DevIconWithToolTip({ tooltipStyle, ...props }: DevIconWithToolTipProps) {
-	const icon = props.icon ;
+	const icon = props.icon;
 	const id = icon.slug;
 	return (
 		<>
