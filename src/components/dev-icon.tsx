@@ -23,7 +23,8 @@ export function DevIconWithToolTip({ tooltipStyle, ...props }: DevIconWithToolTi
 			{React.isValidElement(props.icon) ? props.icon:< DevIcon {...props} />}
 			</span>
 			<Tooltip style={tooltipStyle} id={id}>
-				{icon?.title}
+				{React.isValidElement(props.icon) ? props.title:icon?.title}
+
 			</Tooltip>
 		</>
 	);
