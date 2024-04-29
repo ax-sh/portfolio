@@ -1,3 +1,12 @@
+
+
+## [0.37.0](https://github.com/ax-sh/portfolio/compare/0.36.0...0.37.0) (2024-04-29)
+
+
+### Features
+
+* **src:** add HeroSection component to Home page ([d671325](https://github.com/ax-sh/portfolio/commit/d671325a962a300176ea78eb9dba645ee5a28d5b))
+
 ## [0.36.0](https://github.com/ax-sh/portfolio/compare/0.35.0...0.36.0) (2024-04-29)
 
 ### Features
