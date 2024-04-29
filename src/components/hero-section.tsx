@@ -1,11 +1,11 @@
 import clsx from 'clsx';
 import { siNextdotjs, siReact } from 'simple-icons';
 
-import { ConnectSection } from '../components/connect-section.tsx';
-import { DevIcon } from '../components/dev-icon.tsx';
-import { MainStacksSection } from '../components/main-stacks-section.tsx';
-import { PersonalLink } from '../components/personal-link.tsx';
 import { social } from '../constants';
+import { ConnectSection } from './connect-section.tsx';
+import { DevIcon } from './dev-icon.tsx';
+import { MainStacksSection } from './main-stacks-section.tsx';
+import { PersonalLink } from './personal-link.tsx';
 
 export const info = {
 	email: 'example@example.com',
