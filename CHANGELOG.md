@@ -1,5 +1,12 @@
 
 
+## [0.36.0](https://github.com/ax-sh/portfolio/compare/0.35.0...0.36.0) (2024-04-29)
+
+
+### Features
+
+* Update package dependencies and scripts ([5855dab](https://github.com/ax-sh/portfolio/commit/5855dab9f0e7d502d9651dda9c1d7ee3cc649646))
+
 ## [0.35.0](https://github.com/ax-sh/portfolio/compare/0.34.0...0.35.0) (2024-03-12)
 
 
